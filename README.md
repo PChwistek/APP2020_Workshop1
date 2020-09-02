@@ -26,7 +26,7 @@ def __str__(self):
     result = self.question_text + " -- Replies: " + str(self.get_num_replies())
     return result
 ```
-This method overrides the built-in __str__ method that is available to all Python objects. It is similar to the toString() method in Java. In essence, whenever you would want to convert this object into its string representation, Python will call this method. Therefore, if we ever pass this Question object to a print() statement, the object will be represented in the manner described. E.g. "What is the capital of France? -- Replies: 0" for a Question object with a question_text = "What is the capital of France" and no replies
+This method overrides the built-in __str__ method that is available to all Python objects. It is similar to the toString() method in Java. In essence, whenever you would want to convert an object of type Question into its string representation, Python will call this method. Therefore, if we ever pass a Question object to a print() statement, the object will be represented in the manner described. E.g. "What is the capital of France? -- Replies: 0" for a Question object with a question_text = "What is the capital of France" and no replies
 
 ## main.py
 ```
