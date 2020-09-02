@@ -5,7 +5,7 @@ There are three files: main.py, Question.py, and brain.py
 
 Question.py contains the code for the Question class. main.py is where the application begins running and holds the event loop. brain.py holds the function responsible for parsing user input and handling the application logic.
 
-## The Question Object 
+## Question.py 
 
 ```
 class Question:
